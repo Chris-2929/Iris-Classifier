@@ -1,0 +1,9 @@
+Docstrings (you’ve already started adding them, just finish). ✅
+
+README (we drafted one). ✅
+
+LICENSE. ✅
+
+.gitignore (you already nailed it, just maybe add .mypy_cache/). ✅
+
+Push to GitHub.
