@@ -25,23 +25,28 @@ The CSV (`data/Iris.csv`) is included in this repository for convenience.
 
 Clone the repo and install requirements:
 
+```
 git clone https://github.com/Chris-2929/iris-classifier.git
 cd iris-classifier
 pip install -r requirements.txt
+```
 
 ## Run the main program:
 
+```bash
 py main.py --path=data/Iris.csv --train-size=30 --plot
+```
 
 Example output:
 
+```plaintext
 [INFO] Loading dataset from Iris.csv
 [INFO] Loaded 150 samples with 4 features
 [INFO] Nearest-mean (raw) accuracy: 0.983
 [INFO] KNN (raw) accuracy: 0.983
 [INFO] Nearest-mean (scaled) accuracy: 0.883
 [INFO] KNN (scaled) accuracy: 0.950
-
+```
 
 ## Visualizations
 
@@ -58,8 +63,6 @@ Scatterplot of PetalLengthCm, PetalWidthCm
 ## Running Tests
 
 This repo includes a few basic tests with pytest.
-
-pytest
 
 ## Project Structure
 
@@ -84,5 +87,5 @@ Dataset: Iris dataset (CC0: Public Domain)
 
 ## Development Note
 
-Used ChatGPT-5 as a coding assistant for learning purposes
-but all code was developed, reviewed, and tested by me
+All code in this project was developed, reviewed, and tested by me.
+Used ChatGPT-5 as a coding assistant for learning purposes.
