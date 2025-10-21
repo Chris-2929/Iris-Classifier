@@ -62,7 +62,8 @@ This repo includes a few basic tests with pytest.
 pytest
 
 ## Project Structure
-.
+
+```plaintext
 ├── analysis.py       # Training and experiment logic
 ├── data.py           # Data loading and splitting
 ├── evaluate.py       # Accuracy + confusion matrix
@@ -73,6 +74,7 @@ pytest
 ├── requirements.txt  # Dependencies
 └── data/
     └── Iris.csv      # Dataset (CC0)
+```
 
 ## License
 
